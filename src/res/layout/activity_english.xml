@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="res/drawable-xhdpi-v4/lamp.jpg" android:layout_width="-1" android:layout_height="-1">
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Choose file" />
+	<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="16dp" android:hint="Enter file name" android:layout_toRightOf="false" />
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16dp" android:layout_above="false" android:layout_below="false" />
+	<ProgressBar android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="16dp" android:layout_above="false" android:layout_alignParentLeft="true" style="resourceId:0x7f0f022b" />
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Upload" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+	<TextView android:textSize="16sp" android:gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25dp" android:text="Show Uploads" android:layout_toRightOf="false" android:layout_alignTop="false" android:layout_alignBottom="false" />
+</RelativeLayout>

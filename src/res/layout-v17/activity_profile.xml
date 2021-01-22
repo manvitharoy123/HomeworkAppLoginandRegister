@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<androidx.appcompat.widget.Toolbar android:theme="resourceId:0x7f0f01c8" android:id="false" android:background="151414" android:layout_width="-1" android:layout_height="0dp" app:popupTheme="resourceId:0x7f0f01cd">
+		<TextView android:textSize="20dp" android:textColor="ffffff" android:gravity="0x11" android:layout_width="-2" android:layout_height="-2" android:text="Nirmala English Medium High School" android:textAlignment="4" />
+	</androidx.appcompat.widget.Toolbar>
+	<com.google.android.material.tabs.TabLayout android:theme="resourceId:0x7f0f018d" android:id="false" android:background="resourceId:0x106000c" android:layout_width="-1" android:layout_height="-2" android:minHeight="{2:2130903043}" app:tabGravity="0" app:tabMaxWidth="0dp" />
+	<androidx.viewpager.widget.ViewPager android:id="false" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>
